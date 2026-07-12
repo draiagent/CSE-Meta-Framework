@@ -51,11 +51,11 @@ Foundation Principles
         ↓
 Architecture Principles
         ↓
-Documentation Principles
-        ↓
 Quality Principles
         ↓
 Governance Principles
+        ↓
+Documentation Principles
 ```
 
 五個層級的優先順序由上而下。
@@ -1054,7 +1054,6 @@ Convenience
 - 可作為所有 CSE Framework 的設計審查依據
 
 ---
-
 
 # Related Documents
 
