@@ -5,7 +5,19 @@
 Version: 1.0.0  
 Status: Draft  
 Owner: CSE  
+Category: Roadmap  
+Source of Truth: Framework Roadmap  
 Last Updated: 2026-07-11
+
+Depends On:
+- `10-release-standard.md`
+- `11-validation-standard.md`
+- `12-governance-standard.md`
+- `13-security-standard.md`
+- `14-glossary.md`
+
+Required By:
+- None
 
 ---
 
@@ -154,7 +166,7 @@ CSE Meta Framework v1.0 必須提供：
 - CONTRIBUTING.md
 - CODE_OF_CONDUCT.md
 - SECURITY.md
-- ROADMAP.md
+- `docs/15-roadmap.md`
 - RELEASE.md
 
 ## 4.3 Required Templates
@@ -200,6 +212,19 @@ CSE Meta Framework v1.0 必須提供：
 - 統一術語
 - 明確 Next Document
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- None
+
+### Risks
+
+- Missing or inconsistent core documents
+- Terminology drift
+
 ### Exit Criteria
 
 - [ ] 所有文件存在
@@ -211,7 +236,7 @@ CSE Meta Framework v1.0 必須提供：
 ### Status
 
 ```text
-Current
+Completed
 ```
 
 ---
@@ -234,6 +259,19 @@ Current
 - Security Alignment
 - Governance Alignment
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 1 — Core Documents Complete
+
+### Risks
+
+- Unresolved contradictions
+- Broken cross-references
+
 ### Exit Criteria
 
 - [ ] 核心術語一致
@@ -246,7 +284,7 @@ Current
 ### Status
 
 ```text
-Next
+Current
 ```
 
 ---
@@ -271,6 +309,19 @@ templates/
 └── release/
 ```
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 2 — Core Consistency Review
+
+### Risks
+
+- Template drift from source standards
+- Incomplete placeholders
+
 ### Exit Criteria
 
 - [ ] Template Registry 完成
@@ -282,7 +333,7 @@ templates/
 ### Status
 
 ```text
-Next
+Completed
 ```
 
 ---
@@ -303,6 +354,20 @@ Next
 - Release Checklist
 - Regression Test Plan
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 2 — Core Consistency Review
+- Milestone 3 — Template Package
+
+### Risks
+
+- Unclear acceptance criteria
+- Insufficient evidence storage
+
 ### Exit Criteria
 
 - [ ] Validation Matrix 完成
@@ -314,7 +379,7 @@ Next
 ### Status
 
 ```text
-Next
+Completed
 ```
 
 ---
@@ -336,6 +401,19 @@ Next
 - RELEASE.md
 - SUPPORT.md（如適用）
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 2 — Core Consistency Review
+
+### Risks
+
+- Missing governance files
+- Broken root-level links
+
 ### Exit Criteria
 
 - [ ] Root Files 完整
@@ -347,7 +425,7 @@ Next
 ### Status
 
 ```text
-Next
+Completed
 ```
 
 ---
@@ -367,6 +445,21 @@ Next
 - Publish RC
 - Collect Review
 
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 3 — Template Package
+- Milestone 4 — Validation Package
+- Milestone 5 — Repository Governance Files
+
+### Risks
+
+- Critical issues remain open
+- Release scope changes after freeze
+
 ### Exit Criteria
 
 - [ ] Critical Error = 0
@@ -379,7 +472,7 @@ Next
 ### Status
 
 ```text
-Later
+Current
 ```
 
 ---
@@ -389,6 +482,19 @@ Later
 ### Objective
 
 正式發布 CSE Meta Framework v1.0.0。
+
+### Owner
+
+CSE
+
+### Dependencies
+
+- Milestone 6 — Release Candidate
+
+### Risks
+
+- RC validation failure
+- Post-release support not prepared
 
 ### Exit Criteria
 
@@ -402,7 +508,7 @@ Later
 ### Status
 
 ```text
-Later
+Proposed
 ```
 
 ---
@@ -827,18 +933,18 @@ CSE Meta Framework v1.0 明確不包含：
 
 # 20. Current Priority Board
 
-| Priority | Work Item | Status |
-|---|---|---|
-| P0 | Core contradiction review | Proposed |
-| P1 | Complete core documents | Current |
-| P1 | Cross-reference and metadata review | Next |
-| P1 | Build template package | Next |
-| P1 | Build validation package | Next |
-| P1 | Create README and governance files | Next |
-| P1 | Release Candidate | Later |
-| P2 | Build CSE-TaskRouter | Later |
-| P3 | Build automation scripts | Deferred |
-| P4 | Build CLI / Web tools | Future |
+| Priority | Work Item | Horizon | Status |
+|---|---|---|---|
+| P0 | Core contradiction review | Current | Current |
+| P1 | Complete core documents | Current | Completed |
+| P1 | Cross-reference and metadata review | Current | Current |
+| P1 | Build template package | Current | Completed |
+| P1 | Build validation package | Current | Completed |
+| P1 | Create README and governance files | Current | Completed |
+| P1 | Release Candidate | Current | Current |
+| P2 | Build CSE-TaskRouter | Next | Approved |
+| P3 | Build automation scripts | Later | Deferred |
+| P4 | Build CLI / Web tools | Future | Proposed |
 
 ---
 
@@ -967,6 +1073,16 @@ CSE Meta Framework v1.0 明確不包含：
 - 已建立 Risks、Metrics 與 Review 規則
 - 已明確列出 v1.0 Out of Scope
 - 可作為 CSE Meta Framework 後續開發與發布的正式優先級依據
+
+---
+
+# Related Documents
+
+- [Release Standard](./10-release-standard.md)
+- [Validation Standard](./11-validation-standard.md)
+- [Governance Standard](./12-governance-standard.md)
+- [Security Standard](./13-security-standard.md)
+- [Glossary](./14-glossary.md)
 
 ---
 
