@@ -7,7 +7,7 @@ Status: Draft
 Owner: CSE  
 Category: Documentation Standard  
 Source of Truth: Document Standards  
-Last Updated: 2026-07-11
+Last Updated: 2026-07-13
 
 Depends On:
 - `03-design-principles.md`
@@ -100,7 +100,15 @@ CSE 文件分為七類：
 Version: 1.0.0
 Status: Draft
 Owner: CSE
+Category: Documentation Standard
+Source of Truth: Document Standards
 Last Updated: YYYY-MM-DD
+
+Depends On:
+- `upstream-document.md`
+
+Required By:
+- `downstream-document.md`
 ```
 
 ## 3.1 Required Fields
@@ -110,10 +118,14 @@ Last Updated: YYYY-MM-DD
 | Version | Yes | 文件版本 |
 | Status | Yes | 文件狀態 |
 | Owner | Yes | 文件責任人或團隊 |
+| Category | Yes | 文件類別 |
+| Source of Truth | Yes | 本文件負責的唯一正式主題 |
 | Last Updated | Yes | 最後更新日期 |
+| Depends On | Yes | 本文件依賴的上游文件；無依賴時填 `None` |
+| Required By | Yes | 依賴本文件的下游文件；無下游時填 `None` |
 | Framework | Recommended | 所屬 Framework |
 | Reviewers | Optional | 審查人員 |
-| Related Documents | Optional | 關聯文件 |
+| Related Documents | Required | 正式交叉引用區段 |
 
 ## 3.2 Allowed Status Values
 
@@ -202,12 +214,15 @@ Markdown 標題最多使用四層：
 
 ## 5.1 Heading Rules
 
-- 每份文件只能有一個 `#`
-- 章節從 `#` 依序往下
+- 文件第一個 `#` 必須是文件標題
+- 核心文件可以使用 `#` 表示主要章節
+- `##` 用於主要章節的子節
+- `###` 用於更細分內容
+- `####` 為允許的最深層級
 - 不得跳級
 - 標題應清楚描述內容
 - 標題避免過長
-- 同一文件不得重複相同標題
+- 同一層級不得使用重複且無法辨識的標題
 
 錯誤：
 
@@ -240,6 +255,7 @@ Examples
 Checklist
 Immediate Corrections
 Definition of Done
+Related Documents
 Next Document
 ```
 
@@ -249,6 +265,7 @@ Next Document
 - Core Rules
 - Checklist
 - Definition of Done
+- Related Documents
 
 ---
 
@@ -789,7 +806,9 @@ README.en.md
 ```text
 Draft
   ↓
-Review
+Alpha
+  ↓
+Beta
   ↓
 Release Candidate
   ↓
@@ -858,7 +877,12 @@ Archived
 - [ ] Version 已填寫
 - [ ] Status 已填寫
 - [ ] Owner 已填寫
+- [ ] Category 已填寫
+- [ ] Source of Truth 已填寫
 - [ ] Last Updated 已填寫
+- [ ] Depends On 已填寫
+- [ ] Required By 已填寫
+- [ ] Related Documents 已建立
 
 ## Structure
 
