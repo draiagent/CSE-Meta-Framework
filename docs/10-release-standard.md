@@ -18,9 +18,6 @@ Depends On:
 
 Required By:
 - `08-template-standard.md`
-- `09-readme-standard.md`
-- `11-validation-standard.md`
-- `12-governance-standard.md`
 - `15-roadmap.md`
 
 ---
