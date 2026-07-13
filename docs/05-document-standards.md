@@ -17,7 +17,6 @@ Depends On:
 Required By:
 - `08-template-standard.md`
 - `09-readme-standard.md`
-- `14-glossary.md`
 
 ---
 
