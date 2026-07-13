@@ -11,7 +11,6 @@ Last Updated: 2026-07-11
 
 Depends On:
 - `00-philosophy.md`
-- `02-framework-blueprint.md`
 - `14-glossary.md`
 
 Required By:
