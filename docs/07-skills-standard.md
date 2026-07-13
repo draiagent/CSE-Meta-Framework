@@ -154,7 +154,7 @@ name: task-router
 display_name: Task Router
 description: Classify task complexity and select an execution path.
 version: 1.0.0
-status: draft
+status: Draft
 owner: CSE
 framework: CSE-TaskRouter
 category: router
@@ -413,7 +413,27 @@ Return
 - Escalation
 - Logging
 
-## 11.1 Workflow Rules
+## 11.1 Core Methodology Mapping
+
+Skill Workflow 必須能映射至 [Core Methodology](./06-core-methodology.md)：
+
+| Skill Workflow | Core Methodology |
+|---|---|
+| Receive + Validate Input | Understand |
+| Analyze | Analyze |
+| Plan + Decision Rules | Design |
+| Execute | Execute |
+| Validate Output | Validate |
+| Retry + Correction + Logging | Improve |
+
+固定原則：
+
+```text
+Skill 可以簡化或內嵌六階段，
+但不得省略必要的 Understand、Validate 與錯誤改善機制。
+```
+
+## 11.2 Workflow Rules
 
 - Workflow 必須可重複
 - 每一步有明確目的
