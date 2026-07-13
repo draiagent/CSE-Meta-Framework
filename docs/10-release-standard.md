@@ -759,10 +759,10 @@ Hotfix 流程可縮短，但不得省略：
 
 ```text
 main
-develop
-release/*
-hotfix/*
-feature/*
+├── feature/*
+├── release/*
+└── hotfix/*
+`main` 為唯一長期維護分支；`feature/*`、`release/*` 與 `hotfix/*` 均為短生命週期分支。
 ```
 
 小型 Repository 可簡化為：
