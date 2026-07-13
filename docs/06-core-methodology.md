@@ -19,7 +19,6 @@ Depends On:
 
 Required By:
 - `07-skills-standard.md`
-- `11-validation-standard.md`
 
 ---
 
