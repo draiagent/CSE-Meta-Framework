@@ -16,7 +16,6 @@ Depends On:
 - `14-glossary.md`
 
 Required By:
-- `03-design-principles.md`
 - `04-repository-architecture.md`
 - `06-core-methodology.md`
 
