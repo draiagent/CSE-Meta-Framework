@@ -17,6 +17,7 @@ Required By:
 - `02-framework-blueprint.md`
 - `03-design-principles.md`
 - `06-core-methodology.md`
+- `14-glossary.md`
 
 ---
 
