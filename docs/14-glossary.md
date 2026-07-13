@@ -5,7 +5,28 @@
 Version: 1.0.0  
 Status: Draft  
 Owner: CSE  
+Category: Terminology Standard  
+Source of Truth: Glossary  
 Last Updated: 2026-07-11
+
+Depends On:
+- `00-philosophy.md`
+
+Required By:
+- `01-framework-lifecycle.md`
+- `02-framework-blueprint.md`
+- `03-design-principles.md`
+- `04-repository-architecture.md`
+- `05-document-standards.md`
+- `06-core-methodology.md`
+- `07-skills-standard.md`
+- `08-template-standard.md`
+- `09-readme-standard.md`
+- `10-release-standard.md`
+- `11-validation-standard.md`
+- `12-governance-standard.md`
+- `13-security-standard.md`
+- `15-roadmap.md`
 
 ---
 
