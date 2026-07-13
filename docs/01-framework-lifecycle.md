@@ -21,7 +21,7 @@ Required By:
 
 # Purpose
 
-本文件定義所有 CSE Framework 共用的母方法論：
+本文件定義所有 CSE Framework 共用的框架生命週期：
 
 ```text
 Discover
