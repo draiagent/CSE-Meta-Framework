@@ -10,7 +10,6 @@ Source of Truth: Security Standard
 Last Updated: 2026-07-11
 
 Depends On:
-- `11-validation-standard.md`
 - `12-governance-standard.md`
 - `14-glossary.md`
 
@@ -19,7 +18,6 @@ Required By:
 - `07-skills-standard.md`
 - `10-release-standard.md`
 - `11-validation-standard.md`
-- `12-governance-standard.md`
 - `15-roadmap.md`
 
 ---
@@ -606,6 +604,17 @@ Validation Plan、Acceptance Criteria、Severity Mapping、Decision 與正式報
 | Informational | 建議事項 |
 
 正式 Finding、Decision 與 Release Recommendation 仍依 [Validation Standard](./11-validation-standard.md) 管理。
+## 23.1 Validation Severity Mapping
+
+| Security Severity | Validation Severity | Release Impact |
+|---|---|---|
+| Critical | Critical | 阻止 Release |
+| High | Major | 發布前必須修正 |
+| Medium | Major | 必須修正，或由 Owner 明確接受風險 |
+| Low | Minor | 可納入改善計畫 |
+| Informational | Informational | 不阻止 Release |
+
+Security Finding 應保留原始 Security Severity；進入正式 Validation Report 時，必須同步映射為 Validation Severity。
 
 # 24. Incident Response
 
