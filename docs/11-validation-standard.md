@@ -10,8 +10,6 @@ Source of Truth: Validation Standard
 Last Updated: 2026-07-11
 
 Depends On:
-- `06-core-methodology.md`
-- `10-release-standard.md`
 - `12-governance-standard.md`
 - `13-security-standard.md`
 - `14-glossary.md`
@@ -21,8 +19,6 @@ Required By:
 - `07-skills-standard.md`
 - `08-template-standard.md`
 - `10-release-standard.md`
-- `12-governance-standard.md`
-- `13-security-standard.md`
 - `15-roadmap.md`
 
 ---
