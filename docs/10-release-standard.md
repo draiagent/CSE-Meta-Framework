@@ -960,6 +960,7 @@ README、Skill、Config 與 Tag 版本不一致。
 
 # Related Documents
 
+- [README Standard](./09-readme-standard.md)
 - [Validation Standard](./11-validation-standard.md)
 - [Governance Standard](./12-governance-standard.md)
 - [Security Standard](./13-security-standard.md)
