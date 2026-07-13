@@ -12,8 +12,6 @@ Last Updated: 2026-07-11
 Depends On:
 - `04-repository-architecture.md`
 - `05-document-standards.md`
-- `08-template-standard.md`
-- `10-release-standard.md`
 - `14-glossary.md`
 
 Required By:
