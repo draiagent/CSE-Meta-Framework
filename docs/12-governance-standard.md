@@ -10,16 +10,12 @@ Source of Truth: Governance Standard
 Last Updated: 2026-07-11
 
 Depends On:
-- `10-release-standard.md`
-- `11-validation-standard.md`
-- `13-security-standard.md`
 - `14-glossary.md`
 
 Required By:
 - `10-release-standard.md`
 - `11-validation-standard.md`
 - `13-security-standard.md`
-- `14-glossary.md`
 - `15-roadmap.md`
 
 ---
