@@ -18,7 +18,6 @@ Depends On:
 - `14-glossary.md`
 
 Required By:
-- `09-readme-standard.md`
 - `15-roadmap.md`
 
 ---
@@ -143,7 +142,7 @@ templates/
 template_name: skill-template
 display_name: Skill Template
 version: 1.0.0
-status: stable
+status: Stable
 owner: CSE
 category: skill
 source_standard: 07-skills-standard.md
@@ -162,7 +161,7 @@ placeholders:
 | template_name | Yes | Template 唯一名稱 |
 | display_name | Yes | 顯示名稱 |
 | version | Yes | Template 版本 |
-| status | Yes | Draft / Stable 等 |
+| status | Yes | Draft / Alpha / Beta / Release Candidate / Stable / Deprecated / Archived |
 | owner | Yes | 維護責任人 |
 | category | Yes | Template 類型 |
 | source_standard | Yes | 對應規格來源 |
@@ -246,7 +245,7 @@ optional_placeholders:
 
 ```yaml
 defaults:
-  STATUS: draft
+  STATUS: Draft
   LICENSE: MIT
   LANGUAGE: zh-TW
 ```
@@ -285,7 +284,7 @@ Template 中的說明應使用 HTML Comment：
 ---
 template_name: framework-definition-template
 version: 1.0.0
-status: stable
+status: Stable
 owner: CSE
 category: framework
 source_standard: 02-framework-blueprint.md
@@ -296,7 +295,15 @@ source_standard: 02-framework-blueprint.md
 Version: {{VERSION}}
 Status: {{STATUS}}
 Owner: {{OWNER}}
+Category: {{CATEGORY}}
+Source of Truth: {{SOURCE_OF_TRUTH}}
 Last Updated: {{LAST_UPDATED}}
+
+Depends On:
+{{DEPENDS_ON}}
+
+Required By:
+{{REQUIRED_BY}}
 
 ## Purpose
 
@@ -339,6 +346,10 @@ Last Updated: {{LAST_UPDATED}}
 ## Definition of Done
 
 {{DEFINITION_OF_DONE}}
+
+## Related Documents
+
+{{RELATED_DOCUMENTS}}
 ```
 
 ---
@@ -805,13 +816,13 @@ templates:
   - name: skill-template
     file: skills/skill.template.md
     version: 1.0.0
-    status: stable
+    status: Stable
     source_standard: docs/07-skills-standard.md
 
   - name: readme-template
     file: repository/readme.template.md
     version: 1.0.0
-    status: draft
+    status: Draft
     source_standard: docs/09-readme-standard.md
 ```
 
@@ -926,7 +937,7 @@ Archived
 Deprecated Metadata：
 
 ```yaml
-status: deprecated
+status: Deprecated
 deprecated: true
 replaced_by: skill-template-v2
 ```
@@ -1164,7 +1175,6 @@ Template 內寫死模型、價格或 API。
 - 可供所有 CSE Framework 建立一致且可重複使用的模板
 
 ---
-
 
 # Related Documents
 
