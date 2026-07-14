@@ -585,7 +585,33 @@ Workflow 不等於 Framework。
 
 ---
 
-## 7.8 Decision Point
+## 7.8 Process
+
+**Chinese:** 流程  
+**Status:** Preferred
+
+定義：
+
+為達成特定治理、驗證、發布或營運目標而建立的正式階段與活動順序。
+
+Process 通常描述「必須經過哪些階段」，不等同於單次任務的 Workflow，也不等同於 Framework 的 Core Methodology。
+
+---
+
+## 7.9 Pipeline
+
+**Chinese:** 處理管線  
+**Status:** Preferred
+
+定義：
+
+將資料、Artifact、驗證或自動化工作依固定順序串接處理的技術執行鏈。
+
+Pipeline 通常強調系統化、自動化與前後階段輸出傳遞，不應用來取代 Methodology、Process 或 Workflow。
+
+---
+
+## 7.10 Decision Point
 
 **Chinese:** 決策點  
 **Status:** Preferred
@@ -596,7 +622,7 @@ Workflow 不等於 Framework。
 
 ---
 
-## 7.9 Feedback Loop
+## 7.11 Feedback Loop
 
 **Chinese:** 回饋迴路  
 **Status:** Preferred
@@ -607,7 +633,7 @@ Workflow 不等於 Framework。
 
 ---
 
-## 7.10 Stop Condition
+## 7.12 Stop Condition
 
 **Chinese:** 停止條件  
 **Status:** Preferred
