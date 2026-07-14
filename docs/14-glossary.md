@@ -762,7 +762,22 @@ Module 通常比 Component 更強調獨立責任與介面。
 
 ---
 
-## 8.6 Dependency
+## 8.6 Package
+
+**Chinese:** 套件  
+**Status:** Preferred
+
+定義：
+
+為特定用途而組合、版本化、發布或交付的一組相關 Module、Component、文件、Config、Schema、Template、Example 或 Test。
+
+Package 強調「可封裝、可版本化與可交付」，但不必然具備 Module 的單一責任與獨立介面。
+
+Package 不等同於 Repository；一個 Repository 可以包含多個 Package，一個 Package 也可以由多個 Module 或 Component 組成。
+
+---
+
+## 8.7 Dependency
 
 **Chinese:** 依賴  
 **Status:** Preferred
@@ -773,7 +788,7 @@ Module 通常比 Component 更強調獨立責任與介面。
 
 ---
 
-## 8.7 Adapter
+## 8.8 Adapter
 
 **Chinese:** 適配器  
 **Status:** Preferred
@@ -786,7 +801,7 @@ Adapter 不得修改核心方法論。
 
 ---
 
-## 8.8 Integration
+## 8.9 Integration
 
 **Chinese:** 整合  
 **Status:** Preferred
