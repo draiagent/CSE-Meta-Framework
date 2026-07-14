@@ -1038,7 +1038,20 @@ Template 中等待使用者或系統填入的命名欄位。
 
 ---
 
-## 12.4 Render
+## 12.4 Registry
+
+**Chinese:** 登錄表／登錄機制  
+**Status:** Preferred
+
+定義：
+
+集中記錄並管理 Artifact、Template、Skill、Package 或其他受治理項目的名稱、版本、狀態、路徑、Owner 與 Metadata 的正式機制。
+
+Registry 用於索引、追蹤與治理，不保存完整實作內容，也不等同於 Repository、Directory 或一般清單。
+
+---
+
+## 12.5 Render
 
 **Chinese:** 渲染／套用模板  
 **Status:** Preferred
@@ -1103,7 +1116,22 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-## 13.4 Input Contract
+## 13.4 Contract
+
+**Chinese:** 契約  
+**Status:** Preferred
+
+定義：
+
+對 Input、Output、Interface、行為、責任、限制與錯誤處理所建立的正式約定。
+
+Contract 定義「各方必須遵守什麼」；Schema 定義「資料必須具有什麼結構」。
+
+Contract 可以引用 Schema，但不得與 Schema、Configuration 或 Template 混用。
+
+---
+
+## 13.5 Input Contract
 
 **Chinese:** 輸入契約  
 **Status:** Preferred
@@ -1114,7 +1142,7 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-## 13.5 Output Contract
+## 13.6 Output Contract
 
 **Chinese:** 輸出契約  
 **Status:** Preferred
@@ -1125,7 +1153,7 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-## 13.6 Interface
+## 13.7 Interface
 
 **Chinese:** 介面  
 **Status:** Preferred
