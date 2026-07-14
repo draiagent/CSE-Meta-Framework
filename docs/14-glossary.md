@@ -1089,9 +1089,67 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-# 13. Validation Terms
+# 13. Output and Artifact Terms
 
-## 13.1 Validation
+## 13.1 Output
+
+**Chinese:** 輸出  
+**Status:** Preferred
+
+定義：
+
+單次 Task、Workflow、Skill 或 Process 執行後直接產生的內容、資料或狀態。
+
+Output 可能尚未完成 Validation、Review 或 Approval，因此不必然構成正式 Deliverable 或 Artifact。
+
+---
+
+## 13.2 Result
+
+**Chinese:** 結果  
+**Status:** Preferred
+
+定義：
+
+Task、Workflow、Validation、Verification、Review 或 Audit 執行後所得到的判定、狀態或結論。
+
+Result 可為 Pass、Fail、Warning、Approved、Rejected 或其他明確狀態，不應用來指稱文件、檔案或正式產出物。
+
+---
+
+## 13.3 Artifact
+
+**Chinese:** 正式產出物  
+**Status:** Preferred
+
+定義：
+
+具備明確內容、版本、Owner、可追蹤性與可驗證性的正式產出物。
+
+Artifact 可包含文件、Skill、Template、Config、Schema、Report、Release Notes 或其他可保存與治理的成果。
+
+Artifact 不等同於單次 Output 或狀態型 Result。
+
+---
+
+## 13.4 Deliverable
+
+**Chinese:** 交付成果  
+**Status:** Preferred
+
+定義：
+
+依 Scope、Milestone、Contract 或 Acceptance Criteria，正式交付給使用者、Owner、Reviewer 或專案的成果。
+
+Deliverable 可由一個或多個 Artifact 組成，且應具備明確交付對象與完成條件。
+
+Deliverable 不等同於所有 Output，也不應直接與單一 Artifact 混用。
+
+---
+
+# 14. Validation Terms
+
+## 14.1 Validation
 
 **Chinese:** 驗證  
 **Status:** Preferred
@@ -1102,7 +1160,7 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-## 13.2 Verification
+## 14.2 Verification
 
 **Chinese:** 確認／符合性確認  
 **Status:** Preferred
@@ -1117,7 +1175,7 @@ Verification 不得與 Validation、Review 或 Audit 混用。
 
 ---
 
-## 13.3 Review
+## 14.3 Review
 
 **Chinese:** 審查  
 **Status:** Preferred
@@ -1133,7 +1191,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.4 Structural Validation
+## 14.4 Structural Validation
 
 **Chinese:** 結構驗證  
 **Status:** Preferred
@@ -1144,7 +1202,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.5 Content Validation
+## 14.5 Content Validation
 
 **Chinese:** 內容驗證  
 **Status:** Preferred
@@ -1155,7 +1213,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.6 Functional Validation
+## 14.6 Functional Validation
 
 **Chinese:** 功能驗證  
 **Status:** Preferred
@@ -1166,7 +1224,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.7 Scenario Validation
+## 14.7 Scenario Validation
 
 **Chinese:** 情境驗證  
 **Status:** Preferred
@@ -1177,7 +1235,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.8 Regression Validation
+## 14.8 Regression Validation
 
 **Chinese:** 回歸驗證  
 **Status:** Preferred
@@ -1188,7 +1246,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.9 Security Validation
+## 14.9 Security Validation
 
 **Chinese:** 安全驗證  
 **Status:** Preferred
@@ -1199,7 +1257,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.10 Acceptance Criteria
+## 14.10 Acceptance Criteria
 
 **Chinese:** 驗收標準  
 **Status:** Preferred
@@ -1210,7 +1268,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.11 Validation Report
+## 14.11 Validation Report
 
 **Chinese:** 驗證報告  
 **Status:** Preferred
@@ -1221,7 +1279,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.12 Finding
+## 14.12 Finding
 
 **Chinese:** 驗證發現  
 **Status:** Preferred
@@ -1232,7 +1290,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 13.13 Severity
+## 14.13 Severity
 
 **Chinese:** 嚴重程度  
 **Status:** Preferred
@@ -1246,9 +1304,9 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-# 14. Governance Terms
+# 15. Governance Terms
 
-## 14.1 Governance
+## 15.1 Governance
 
 **Chinese:** 治理  
 **Status:** Preferred
@@ -1259,7 +1317,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.2 Owner
+## 15.2 Owner
 
 **Chinese:** 負責人  
 **Status:** Preferred
@@ -1270,7 +1328,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.3 Maintainer
+## 15.3 Maintainer
 
 **Chinese:** 維護者  
 **Status:** Preferred
@@ -1281,7 +1339,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.4 Architect
+## 15.4 Architect
 
 **Chinese:** 架構負責人  
 **Status:** Preferred
@@ -1292,7 +1350,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.5 Reviewer
+## 15.5 Reviewer
 
 **Chinese:** 審查者  
 **Status:** Preferred
@@ -1303,7 +1361,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.6 Decision Rights
+## 15.6 Decision Rights
 
 **Chinese:** 決策權責  
 **Status:** Preferred
@@ -1314,7 +1372,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.7 RACI
+## 15.7 RACI
 
 **Chinese:** RACI 權責矩陣  
 **Status:** Preferred
@@ -1328,7 +1386,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.8 Change Control
+## 15.8 Change Control
 
 **Chinese:** 變更控制  
 **Status:** Preferred
@@ -1339,7 +1397,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.9 ADR
+## 15.9 ADR
 
 **English:** Architecture Decision Record  
 **Chinese:** 架構決策紀錄  
@@ -1351,7 +1409,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 14.10 Audit
+## 15.10 Audit
 
 **Chinese:** 稽核／審計  
 **Status:** Preferred
@@ -1362,9 +1420,9 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-# 15. Release Terms
+# 16. Release Terms
 
-## 15.1 Release
+## 16.1 Release
 
 **Chinese:** 發布  
 **Status:** Preferred
@@ -1375,7 +1433,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 15.2 Release Candidate
+## 16.2 Release Candidate
 
 **Chinese:** 候選發布版  
 **Status:** Preferred
@@ -1392,7 +1450,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 15.3 Stable
+## 16.3 Stable
 
 **Chinese:** 穩定版  
 **Status:** Preferred
@@ -1403,7 +1461,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 15.4 Semantic Versioning
+## 16.4 Semantic Versioning
 
 **Chinese:** 語意化版本  
 **Status:** Preferred
@@ -1420,7 +1478,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 15.5 Breaking Change
+## 16.5 Breaking Change
 
 **Chinese:** 破壞性變更  
 **Status:** Preferred
@@ -1431,7 +1489,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 15.6 Migration Guide
+## 16.6 Migration Guide
 
 **Chinese:** 遷移指南  
 **Status:** Preferred
@@ -1442,7 +1500,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 15.7 Rollback
+## 16.7 Rollback
 
 **Chinese:** 回復／回滾  
 **Status:** Preferred
@@ -1453,7 +1511,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 15.8 Deprecation
+## 16.8 Deprecation
 
 **Chinese:** 淘汰標示  
 **Status:** Preferred
@@ -1464,7 +1522,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 15.9 Archive
+## 16.9 Archive
 
 **Chinese:** 封存  
 **Status:** Preferred
@@ -1475,9 +1533,9 @@ MAJOR.MINOR.PATCH
 
 ---
 
-# 16. Security Terms
+# 17. Security Terms
 
-## 16.1 Security by Design
+## 17.1 Security by Design
 
 **Chinese:** 安全內建設計  
 **Status:** Preferred
@@ -1488,7 +1546,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 16.2 Least Privilege
+## 17.2 Least Privilege
 
 **Chinese:** 最小權限  
 **Status:** Preferred
@@ -1499,7 +1557,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 16.3 Data Minimization
+## 17.3 Data Minimization
 
 **Chinese:** 資料最小化  
 **Status:** Preferred
@@ -1510,7 +1568,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 16.4 Secure Default
+## 17.4 Secure Default
 
 **Chinese:** 安全預設值  
 **Status:** Preferred
@@ -1521,7 +1579,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 16.5 Fail Closed
+## 17.5 Fail Closed
 
 **Chinese:** 安全失敗  
 **Status:** Preferred
@@ -1532,7 +1590,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## 16.6 Secret
+## 17.6 Secret
 
 **Chinese:** 機密憑證  
 **Status:** Preferred
@@ -1543,7 +1601,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 16.7 Prompt Injection
+## 17.7 Prompt Injection
 
 **Chinese:** 提示詞注入  
 **Status:** Preferred
@@ -1554,7 +1612,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 16.8 Tool Allowlist
+## 17.8 Tool Allowlist
 
 **Chinese:** 工具允許清單  
 **Status:** Preferred
@@ -1565,7 +1623,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 16.9 Irreversible Action
+## 17.9 Irreversible Action
 
 **Chinese:** 不可逆操作  
 **Status:** Preferred
@@ -1576,7 +1634,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 16.10 Incident Response
+## 17.10 Incident Response
 
 **Chinese:** 安全事件處理  
 **Status:** Preferred
@@ -1587,9 +1645,9 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-# 17. Data Classification Terms
+# 18. Data Classification Terms
 
-## 17.1 Public
+## 18.1 Public
 
 **Chinese:** 公開資料  
 **Status:** Preferred
@@ -1600,7 +1658,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 17.2 Internal
+## 18.2 Internal
 
 **Chinese:** 內部資料  
 **Status:** Preferred
@@ -1611,7 +1669,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 17.3 Confidential
+## 18.3 Confidential
 
 **Chinese:** 機密資料  
 **Status:** Preferred
@@ -1622,7 +1680,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 17.4 Restricted
+## 18.4 Restricted
 
 **Chinese:** 高度限制資料  
 **Status:** Preferred
@@ -1633,9 +1691,9 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-# 18. Documentation Terms
+# 19. Documentation Terms
 
-## 18.1 Documentation
+## 19.1 Documentation
 
 **Chinese:** 文件體系  
 **Status:** Preferred
@@ -1646,7 +1704,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 18.2 Source of Truth
+## 19.2 Source of Truth
 
 **Chinese:** 單一真實來源  
 **Status:** Preferred
@@ -1657,7 +1715,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 18.3 Cross-Reference
+## 19.3 Cross-Reference
 
 **Chinese:** 交叉引用  
 **Status:** Preferred
@@ -1668,7 +1726,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 18.4 Metadata
+## 19.4 Metadata
 
 **Chinese:** 文件中繼資料  
 **Status:** Preferred
@@ -1679,7 +1737,7 @@ API Key、Token、Password、Private Key 或其他授權憑證。
 
 ---
 
-## 18.5 README
+## 19.5 README
 
 **Chinese:** 專案首頁  
 **Status:** Preferred
@@ -1692,7 +1750,7 @@ README 不等於完整文件系統。
 
 ---
 
-## 18.6 CHANGELOG
+## 19.6 CHANGELOG
 
 **Chinese:** 變更紀錄  
 **Status:** Preferred
@@ -1703,9 +1761,9 @@ README 不等於完整文件系統。
 
 ---
 
-# 19. AI and Model Terms
+# 20. AI and Model Terms
 
-## 19.1 Model
+## 20.1 Model
 
 **Chinese:** 模型  
 **Status:** Preferred
@@ -1718,7 +1776,7 @@ Model 不等於 Platform、Tool 或 Workflow。
 
 ---
 
-## 19.2 Provider
+## 20.2 Provider
 
 **Chinese:** 模型供應商  
 **Status:** Preferred
@@ -1729,7 +1787,7 @@ Model 不等於 Platform、Tool 或 Workflow。
 
 ---
 
-## 19.3 Platform
+## 20.3 Platform
 
 **Chinese:** 平台  
 **Status:** Preferred
@@ -1740,7 +1798,7 @@ Model 不等於 Platform、Tool 或 Workflow。
 
 ---
 
-## 19.4 Tool
+## 20.4 Tool
 
 **Chinese:** 工具  
 **Status:** Preferred
@@ -1753,7 +1811,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 19.5 Agent
+## 20.5 Agent
 
 **Chinese:** 代理  
 **Status:** Preferred
@@ -1764,7 +1822,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 19.6 Multi-Agent
+## 20.6 Multi-Agent
 
 **Chinese:** 多代理協作  
 **Status:** Preferred
@@ -1775,7 +1833,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 19.7 Model Routing
+## 20.7 Model Routing
 
 **Chinese:** 模型路由  
 **Status:** Preferred
@@ -1786,7 +1844,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 19.8 Task Routing
+## 20.8 Task Routing
 
 **Chinese:** 任務路由  
 **Status:** Preferred
@@ -1797,9 +1855,9 @@ Tool 不等於 Skill。
 
 ---
 
-# 20. Quality Terms
+# 21. Quality Terms
 
-## 20.1 Accuracy
+## 21.1 Accuracy
 
 **Chinese:** 正確性  
 **Status:** Preferred
@@ -1810,7 +1868,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 20.2 Completeness
+## 21.2 Completeness
 
 **Chinese:** 完整性  
 **Status:** Preferred
@@ -1821,7 +1879,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 20.3 Consistency
+## 21.3 Consistency
 
 **Chinese:** 一致性  
 **Status:** Preferred
@@ -1832,7 +1890,7 @@ Tool 不等於 Skill。
 
 ---
 
-## 20.4 Reusability
+## 21.4 Reusability
 
 **Chinese:** 可重複使用性  
 **Status:** Preferred
@@ -1843,7 +1901,7 @@ Artifact 是否可套用到多個相似情境，而非只適用一次。
 
 ---
 
-## 20.5 Maintainability
+## 21.5 Maintainability
 
 **Chinese:** 可維護性  
 **Status:** Preferred
@@ -1854,7 +1912,7 @@ Artifact 是否容易理解、修改、測試、版本化與修正。
 
 ---
 
-## 20.6 Traceability
+## 21.6 Traceability
 
 **Chinese:** 可追蹤性  
 **Status:** Preferred
@@ -1865,7 +1923,7 @@ Artifact 是否容易理解、修改、測試、版本化與修正。
 
 ---
 
-## 20.7 Portability
+## 21.7 Portability
 
 **Chinese:** 可攜性  
 **Status:** Preferred
@@ -1876,7 +1934,7 @@ Skill 或 Framework 是否能在不同平台、模型或工具環境中重複使
 
 ---
 
-## 20.8 Compatibility
+## 21.8 Compatibility
 
 **Chinese:** 相容性  
 **Status:** Preferred
@@ -1887,7 +1945,7 @@ Skill 或 Framework 是否能在不同平台、模型或工具環境中重複使
 
 ---
 
-# 21. Recommended and Prohibited Usage
+# 22. Recommended and Prohibited Usage
 
 | Preferred | Avoid | Reason |
 |---|---|---|
@@ -1904,7 +1962,7 @@ Skill 或 Framework 是否能在不同平台、模型或工具環境中重複使
 
 ---
 
-# 22. Deprecated Terms
+# 23. Deprecated Terms
 
 以下用詞不建議在新文件中使用：
 
@@ -1923,7 +1981,7 @@ Skill 或 Framework 是否能在不同平台、模型或工具環境中重複使
 
 ---
 
-# 23. Abbreviation Rules
+# 24. Abbreviation Rules
 
 縮寫首次出現時必須展開。
 
@@ -1948,7 +2006,7 @@ ADR
 
 ---
 
-# 24. Bilingual Usage
+# 25. Bilingual Usage
 
 中英文文件應保持概念一致。
 
@@ -1970,7 +2028,7 @@ Framework Lifecycle（框架生命週期）
 
 ---
 
-# 25. New Term Proposal
+# 26. New Term Proposal
 
 新增術語時，應提供：
 
@@ -2005,7 +2063,7 @@ Update Related Documents
 
 ---
 
-# 26. Glossary Governance
+# 27. Glossary Governance
 
 本 Glossary 的重大變更需：
 
@@ -2020,7 +2078,7 @@ Update Related Documents
 
 ---
 
-# 27. Glossary Validation Checklist
+# 28. Glossary Validation Checklist
 
 ## Definition
 
@@ -2045,9 +2103,9 @@ Update Related Documents
 
 ---
 
-# 28. Anti-Patterns
+# 29. Anti-Patterns
 
-## 28.1 Synonym Drift
+## 29.1 Synonym Drift
 
 同一概念在不同文件使用不同名稱。
 
@@ -2055,7 +2113,7 @@ Update Related Documents
 
 - 回到 Glossary 統一正式名稱。
 
-## 28.2 Product Name as Methodology
+## 29.2 Product Name as Methodology
 
 以某平台產品名稱取代能力或方法。
 
@@ -2063,7 +2121,7 @@ Update Related Documents
 
 - 核心文件使用能力名稱，產品名稱放在 Adapter 或 Reference。
 
-## 28.3 Undefined Acronym
+## 29.3 Undefined Acronym
 
 使用者無法理解縮寫。
 
@@ -2071,7 +2129,7 @@ Update Related Documents
 
 - 首次展開並加入 Glossary。
 
-## 28.4 Translation Drift
+## 29.4 Translation Drift
 
 中英文版本定義不同。
 
@@ -2079,7 +2137,7 @@ Update Related Documents
 
 - 指定主要語言與正式對照。
 
-## 28.5 Glossary as Encyclopedia
+## 29.5 Glossary as Encyclopedia
 
 收錄與 Framework 無關的一般 AI 名詞。
 
@@ -2089,7 +2147,7 @@ Update Related Documents
 
 ---
 
-# 29. Immediate Corrections
+# 30. Immediate Corrections
 
 本版已建立並修正以下核心要求：
 
@@ -2116,7 +2174,7 @@ Update Related Documents
 
 ---
 
-# 30. Definition of Done
+# 31. Definition of Done
 
 本文件完成代表：
 
