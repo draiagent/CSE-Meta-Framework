@@ -25,7 +25,7 @@ CSE Meta Framework provides a shared foundation for:
 - Skill and template standards
 - Validation, governance, security, and release controls
 
-## Core Framework Lifecycle
+## Framework Lifecycle
 
 ```text
 Discover
@@ -45,7 +45,7 @@ Evolve
 
 See [Framework Lifecycle](./docs/01-framework-lifecycle.md).
 
-## Core Execution Methodology
+## Core Methodology
 
 ```text
 Understand
