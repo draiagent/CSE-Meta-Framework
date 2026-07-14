@@ -1102,7 +1102,22 @@ Configuration 的實際檔案或簡稱。
 
 ---
 
-## 13.2 Review
+## 13.2 Verification
+
+**Chinese:** 確認／符合性確認  
+**Status:** Preferred
+
+定義：
+
+依據既定 Specification、Blueprint、Standard、Schema 或 Contract，確認 Artifact 的實作是否與原先定義一致。
+
+Verification 回答「是否按照規格正確建立」；Validation 回答「是否符合預期需求與 Acceptance Criteria」。
+
+Verification 不得與 Validation、Review 或 Audit 混用。
+
+---
+
+## 13.3 Review
 
 **Chinese:** 審查  
 **Status:** Preferred
@@ -1118,7 +1133,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.3 Structural Validation
+## 13.4 Structural Validation
 
 **Chinese:** 結構驗證  
 **Status:** Preferred
@@ -1129,7 +1144,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.4 Content Validation
+## 13.5 Content Validation
 
 **Chinese:** 內容驗證  
 **Status:** Preferred
@@ -1140,7 +1155,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.5 Functional Validation
+## 13.6 Functional Validation
 
 **Chinese:** 功能驗證  
 **Status:** Preferred
@@ -1151,7 +1166,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.6 Scenario Validation
+## 13.7 Scenario Validation
 
 **Chinese:** 情境驗證  
 **Status:** Preferred
@@ -1162,7 +1177,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.7 Regression Validation
+## 13.8 Regression Validation
 
 **Chinese:** 回歸驗證  
 **Status:** Preferred
@@ -1173,7 +1188,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.8 Security Validation
+## 13.9 Security Validation
 
 **Chinese:** 安全驗證  
 **Status:** Preferred
@@ -1184,7 +1199,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.9 Acceptance Criteria
+## 13.10 Acceptance Criteria
 
 **Chinese:** 驗收標準  
 **Status:** Preferred
@@ -1195,7 +1210,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.10 Validation Report
+## 13.11 Validation Report
 
 **Chinese:** 驗證報告  
 **Status:** Preferred
@@ -1206,7 +1221,7 @@ Validation 與 Review 不得混用：
 
 ---
 
-## 13.11 Finding
+## 13.12 Finding
 
 **Chinese:** 驗證發現  
 **Status:** Preferred
@@ -1217,7 +1232,7 @@ Validation 過程中識別出的問題、風險、差異或改善事項。
 
 ---
 
-## 13.12 Severity
+## 13.13 Severity
 
 **Chinese:** 嚴重程度  
 **Status:** Preferred
