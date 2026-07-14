@@ -1,6 +1,6 @@
 # 06 Core Methodology
 
-> CSE Meta Framework — Core Execution Methodology
+> CSE Meta Framework — Core Methodology
 
 Version: 1.0.0  
 Status: Draft  
