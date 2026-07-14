@@ -491,6 +491,45 @@ Framework 主要服務的明確角色或群體。
 
 ---
 
+## 6.5 Architecture
+
+**Chinese:** 架構  
+**Status:** Preferred
+
+定義：
+
+Framework、Repository 或系統中，各組件、責任、介面、依賴與結構關係的整體安排。
+
+Architecture 描述「各部分如何組成與互動」，不等同於 Framework Blueprint、Design 或 Template。
+
+---
+
+## 6.6 Design
+
+**Chinese:** 設計  
+**Status:** Preferred
+
+定義：
+
+依據已確認的 Framework Definition、Blueprint 與 Design Principles，形成可實作結構、規則、介面與行為方案的活動與成果。
+
+Design 是將 Blueprint 具體化的過程，不應直接用來取代 Blueprint、Architecture 或 Template。
+
+---
+
+## 6.7 Template
+
+**Chinese:** 範本  
+**Status:** Preferred
+
+定義：
+
+依據正式 Standard 或已驗證規則建立，可重複複製、填寫與驗證的標準骨架。
+
+Template 提供起始結構，但不是 Blueprint、Design、Architecture 或 Source of Truth。
+
+---
+
 # 7. Core Methodology Terms
 
 ## 7.1 Core Methodology
