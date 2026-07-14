@@ -6,7 +6,7 @@ Version: 1.0.0
 Status: Draft  
 Owner: CSE  
 Category: Core Execution Standard  
-Source of Truth: Core Execution Methodology  
+Source of Truth: Core Methodology  
 Last Updated: 2026-07-11
 
 Depends On:
