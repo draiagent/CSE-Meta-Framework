@@ -277,7 +277,19 @@ CSE Meta Framework 不追求：
 
 ---
 
-# 12. Definition of Done
+# 12. Checklist
+
+- [ ] 已定義 CSE Meta Framework 存在目的
+- [ ] 已定義 Vision 與 Mission
+- [ ] 已定義核心哲學與價值主張
+- [ ] 已定義 Scope 與 Non-Goals
+- [ ] 已定義 Framework Family 與 Repository Boundary
+- [ ] 已定義 Success Criteria
+- [ ] 已定義 Governing Rule 與例外處理程序
+
+---
+
+# 13. Definition of Done
 
 本文件完成代表：
 
