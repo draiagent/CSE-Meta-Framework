@@ -2265,6 +2265,16 @@ Update Related Documents
 
 ---
 
+# Related Documents
+
+- [Philosophy](./00-philosophy.md)
+- [Document Standards](./05-document-standards.md)
+- [Core Methodology](./06-core-methodology.md)
+- [Governance Standard](./12-governance-standard.md)
+- [Security Standard](./13-security-standard.md)
+
+---
+
 # Next Document
 
 **15-roadmap.md**
